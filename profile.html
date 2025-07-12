@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Profile</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="requests.html">Swap Requests</a>
+    </nav>
+  </header>
+  <main>
+    <form id="profile-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="text" id="skillsOffered" placeholder="Skills Offered (comma separated)" required />
+      <input type="text" id="skillsWanted" placeholder="Skills Wanted (comma separated)" required />
+      <select id="availability">
+        <option value="Weekends">Weekends</option>
+        <option value="Evenings">Evenings</option>
+      </select>
+      <button type="submit">Save Profile</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
